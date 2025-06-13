@@ -4,8 +4,8 @@ import torchvision.models as models
 import torchvision.transforms as transforms
 from PIL import Image
 
-from utils import load_imgs
-from config import Config
+from core.utils import load_imgs
+from core.config import Config
 
 class FeatureMatcher:
     def __init__(self,device='cuda'):

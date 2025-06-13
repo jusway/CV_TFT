@@ -1,8 +1,8 @@
 import dxcam
-from config import Config
+from core.config import Config
 from PIL import Image
 
-from utils import get_imgs
+from core.utils import get_imgs
 
 
 def main():

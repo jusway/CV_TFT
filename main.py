@@ -2,9 +2,9 @@ import threading
 from time import sleep
 
 import dxcam
-from config import Config
-from feature_matcher import FeatureMatcher
-from utils import load_imgs, get_heros, get_imgs, click
+from core.config import Config
+from core.feature_matcher import FeatureMatcher
+from core.utils import load_imgs, get_heros, get_imgs, click
 from pynput import keyboard
 hero_lock = threading.Lock()  # 线程锁
 # 截图器

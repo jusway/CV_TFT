@@ -1,5 +1,8 @@
+orch==2.0.0+cu118
+torchvision
 dxcam
 pillow
 numpy<2
 pynput
 pyautogui
+pathlib

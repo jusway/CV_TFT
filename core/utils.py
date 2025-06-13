@@ -3,7 +3,7 @@ import os
 import pyautogui
 from PIL import Image
 
-from config import Config
+from core.config import Config
 
 
 def load_imgs(folder_path):
